@@ -9,6 +9,13 @@ create a simple table using table tag
 ### STEP 2
 Add header row using th tag
 ### STEP 3
+
+### STEP 4
+Execute the program
+
+# CODE
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -113,10 +120,6 @@ Add header row using th tag
         </table>
     </body>
     </html>
-### STEP 4
-Execute the program
-
-# CODE
-
-
 # OUPUT
+[timetable s.txt](https://github.com/22009011/timetable/files/10474775/timetable.s.txt)
+
