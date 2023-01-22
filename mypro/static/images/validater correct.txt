@@ -1,0 +1,186 @@
+
+  Nu Html Checker <https://validator.w3.org/nu/>
+
+This tool is an ongoing experiment in better HTML checking, and its
+behavior remains subject to change
+
+
+    Showing results for
+    http://thanjiyappan.k.student.saveetha.in:8000/static/html/timetable.html
+
+Checker Input
+
+Show sourceoutlineimage reportcheck error pagesUser-Agent Accept-Language
+
+Check by
+
+Use the Message Filtering button below to display options for
+hiding/showing particular messages, and to see total counts of errors
+and warnings.
+
+
+    Message Filtering 15 messages hidden by filtering
+
+Errors (12) · Hide all errors · Show all errors
+
+ 1. The character encoding was not declared. Proceeding using |windows-1252|.
+ 2. An |img| element must have an |alt| attribute, except under certain conditions. For details, consult
+    guidance on providing text alternatives for images
+    <https://www.w3.org/WAI/tutorials/images/>.
+ 3. The |___| attribute on the |___| element is obsolete. Use CSS instead
+    <http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes>. (2) · Hide all · Show all
+     1. The |border| attribute on the |table| element is obsolete. Use CSS instead
+        <http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes>.
+     2. The |align| attribute on the |td| element is obsolete. Use CSS instead
+        <http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes>.
+ 4. |td| start tag in table body. (3)
+ 5. Row 5 of a row group established by a |tbody| element has no cells beginning on it.
+ 6. Row 7 of a row group established by a |tbody| element has no cells beginning on it.
+ 7. Stray end tag |tr|. (2)
+ 8. Table columns in range 12…15 established by element |td| have no cells beginning in them.
+
+Warnings (3) · Hide all warnings · Show all warnings
+
+ 1. A table row was 15 columns wide and exceeded the column count
+    established by the first row (10).
+ 2. A table row was 0 columns wide, which is less than the column count
+    established by the first row (10). (2)
+
+ 1.
+
+    *Error*: The character encoding was not declared. Proceeding using |windows-1252|.
+
+    http://thanjiyappan.k.student.saveetha.in:8000/static/html/timetable.html
+
+ 2.
+
+    *Error*: An |img| element must have an |alt| attribute, except under certain conditions. For details, consult
+    guidance on providing text alternatives for images
+    <https://www.w3.org/WAI/tutorials/images/>.
+
+    From line 8, column 9; to line 8, column 68
+
+    |>↩        *<img src="/static/image/sec1.jpg" height="200" width ="600">*↩     |
+
+ 3.
+
+    *Error*: The |border| attribute on the |table| element is obsolete. Use CSS instead
+    <http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes>.
+
+    From line 9, column 9; to line 9, column 26
+
+    |>↩        *<table border="3">*↩     |
+
+ 4.
+
+    *Error*: The |align| attribute on the |td| element is obsolete. Use CSS instead
+    <http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes>.
+
+    From line 10, column 17; to line 11, column 48
+
+    |      <tr>*↩                <td align="center" colspan="10">*TIME T|
+
+ 5.
+
+    *Warning*: A table row was 15 columns wide and exceeded the column
+    count established by the first row (10).
+
+    From line 15, column 38; to line 16, column 17
+
+    |="5"></td>*↩            </tr>*    ↩ |
+
+ 6.
+
+    *Error*: |td| start tag in table body.
+
+    From line 16, column 18; to line 17, column 20
+
+    |     </tr>*    ↩                <td>*DAYS</|
+
+ 7.
+
+    *Error*: Row 5 of a row group established by a |tbody| element has no cells beginning on it.
+
+    From line 40, column 17; to line 40, column 21
+
+    |      <tr>*</tr>*↩     |
+
+ 8.
+
+    *Warning*: A table row was 0 columns wide, which is less than the
+    column count established by the first row (10).
+
+    From line 40, column 17; to line 40, column 21
+
+    |      <tr>*</tr>*↩     |
+
+ 9.
+
+    *Error*: |td| start tag in table body.
+
+    From line 40, column 22; to line 41, column 20
+
+    | <tr></tr>*↩                <td>*TUESDA|
+
+10.
+
+    *Error*: Row 7 of a row group established by a |tbody| element has no cells beginning on it.
+
+    From line 51, column 17; to line 51, column 21
+
+    |      <tr>*</tr>*↩     |
+
+11.
+
+    *Warning*: A table row was 0 columns wide, which is less than the
+    column count established by the first row (10).
+
+    From line 51, column 17; to line 51, column 21
+
+    |      <tr>*</tr>*↩     |
+
+12.
+
+    *Error*: |td| start tag in table body.
+
+    From line 51, column 22; to line 52, column 20
+
+    | <tr></tr>*↩                <td>*WEDNES|
+
+13.
+
+    *Error*: Stray end tag |tr|.
+
+    From line 98, column 18; to line 100, column 17
+
+    |     </tr>*↩                ↩            </tr>*    ↩ |
+
+14.
+
+    *Error*: Stray end tag |tr|.
+
+    From line 100, column 18; to line 101, column 17
+
+    |     </tr>*    ↩            </tr>*↩     |
+
+15.
+
+    *Error*: Table columns in range 12…15 established by element |td| have no cells beginning in them.
+
+    From line 14, column 57; to line 15, column 32
+
+    |appan</td>*↩                <td colspan="5">*</td>↩|
+
+Document checking completed. No errors or warnings to show.
+
+Used the schema for HTML + SVG 1.1 + MathML 3.0 + RDFa 1.1.
+
+Used the HTML parser.
+
+Total execution time 268 milliseconds.
+
+------------------------------------------------------------------------
+
+About this checker <https://validator.w3.org/nu/about.html> • Report an
+issue <https://validator.w3.org/nu/about.html#issues> • Version: 23.1.15
+
