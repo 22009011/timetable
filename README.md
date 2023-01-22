@@ -121,6 +121,5 @@ Execute the program
     </body>
     </html>
 # OUPUT
-[timetable s.txt](https://github.com/22009011/timetable/files/10474841/timetable.s.txt)
-[My.Timetable-1.pdf](https://github.com/22009011/timetable/files/10474842/My.Timetable-1.pdf)
+
 
